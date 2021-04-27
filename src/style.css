@@ -18,30 +18,90 @@ ul {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 10vh;
-    width: 100vw;
+    width: 80vw;
     padding: 0;
     margin: 0;
 }
 
-.nav-items {
-    text-align: center;
-    flex: 1 1 200px;
-    margin: 5px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+a {
     text-decoration: none;
     color: white;
+    text-align: center;
+    flex: 1 2 150px;
+    margin: 0 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-a:hover{
-    text-decoration: underline;
-    background-color: rgba(245, 245, 245, 0.507);
+a:hover {
+    background-color: rgba(255, 255, 255, 0.315);
+    background-image: url("/media/icons/guitar-icon.png");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
     border-radius: 50%;
+}
+
+.main-content{
+    display: flex;
+    width: 80vw;
+    height: 70vh;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.main-column{
+    margin: 5% 5px;
+}
+
+.spotify-content{
+    flex: 1 1 200px;
+}
+
+.material-content{
+    flex: 3 1 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carrousel {
+    background: url("/media/Wind-Ens-1024x339.png");
+    background-position: center;
+    background-size: cover;
+    flex: 3 3;
+}
+.min-calender {
+    background-color: white;
+    flex: 1 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-right-content {
+    margin: 5px;
+}
+
+
+.calender-item {
+    border: 1px solid black;
+    flex: 1 1 400px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.calender-icon {
+    background: url("/media/icons/calendar.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.calender-item > div {
+    flex: 1;
+}
+
+.calender-item > p {
+    flex: 3;
 }
