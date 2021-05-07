@@ -23,7 +23,9 @@ ul {
     margin: 0;
 }
 
-a {
+.nav-buttons {
+    background: none;
+    border: none;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -33,7 +35,7 @@ a {
     font-family: 'Times New Roman', Times, serif;
 }
 
-a:hover {
+.nav-buttons:hover {
     background-color: rgba(255, 255, 255, 0.315);
     background-image: url("/media/icons/guitar-icon.png");
     background-position: center;
@@ -41,6 +43,7 @@ a:hover {
     width: auto;
     height: auto;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .main-content{
@@ -104,4 +107,33 @@ a:hover {
 
 .calender-item > p {
     flex: 3;
+}
+
+.main-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80vw;
+    height: 60vh;
+}
+
+.main-videos > iframe {
+    flex: 1 1 550px;
+    margin: 5px;
+}
+
+.main-calender {
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    width: 80vw;
+    height: 60vh;
+}
+
+.calender {
+    flex: 1;
+}
+
+.pager {
+    background-color: rgba(3, 3, 241, 0.685);
 }

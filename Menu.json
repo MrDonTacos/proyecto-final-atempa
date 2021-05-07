@@ -1,0 +1,24 @@
+{
+    "menu": [
+        {
+            "nombre": "Inicio",
+            "id": "home"
+        },
+        {
+            "nombre": "Música",
+            "id": "music"
+        },
+        {
+            "nombre": "Partituras",
+            "id": "sheets"
+        },
+        {
+            "nombre": "Calendario",
+            "id": "calender"
+        },
+        {
+            "nombre": "Contacto",
+            "id": "contact"
+        }
+    ]
+}
