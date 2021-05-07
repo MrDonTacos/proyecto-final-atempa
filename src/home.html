@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script
+	    src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="../src/style.css">
 </head>
 <body>
     <header>
     </header>
     <nav class="main-nav">
         <ul>
-            <a href=""><li class="nav-items"><p>Inicio</p></li></a>
-            <a href=""><li class="nav-items"><p>Música</p></li></a>
-            <a href=""><li class="nav-items"><p>Partituras</p></li></a>
-            <a href=""><li class="nav-items"><p>Calendario</p></li></a>
-            <a href=""><li class="nav-items"><p>Contacto</p></li></a>
+            <a href="" id="home"><li class="nav-items"><p>Inicio</p></li></a>
+            <a href="" id="music"><li class="nav-items"><p>Música</p></li></a>
+            <a href="" id="sheets"><li class="nav-items"><p>Partituras</p></li></a>
+            <a href="" id="calender"><li class="nav-items"><p>Calendario</p></li></a>
+            <a href="" id="contact"><li class="nav-items"><p>Contacto</p></li></a>
         </ul>
     </nav>
     <section class="main-content">
@@ -38,3 +44,7 @@
     </section>
 </body>
 </html>
+
+
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js'></script>
+<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
