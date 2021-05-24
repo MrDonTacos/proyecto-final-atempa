@@ -192,12 +192,9 @@ header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px dotted black;
 }
 
 .card {
-    background-color: white;
-    border: 1px solid red;
     flex: 1 1;
     margin: 10px;
     display: flex;
@@ -206,17 +203,24 @@ header {
 }
 
 .card-middle-up {
+    background-color: white;
     flex: 1 1 300px;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.589);
 }
 
 .card-middle-down {
+    box-shadow: -10px -10px rgba(0, 195, 255, 0.849);
+    background-color: white;
+    margin-top: 3%;
     flex: 1 1 300px;
 }
 
 .card-middle-down > p{
     padding: 5%;
+    font-style: italic;
 }
 
 .card-middle-down > h2{
     padding-left: 5%;
+    text-decoration: underline;
 }
