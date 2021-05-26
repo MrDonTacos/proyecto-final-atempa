@@ -46,7 +46,8 @@ header {
     cursor: pointer;
 }
 
-.main-content{
+
+.home-content {
     display: flex;
     width: 80vw;
     height: 70vh;
@@ -118,7 +119,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80vw;
-    height: 60vh;
 }
 
 .main-videos > iframe {
@@ -131,10 +131,11 @@ header {
     flex-wrap:nowrap;
     flex-direction: column;
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
 }
 
 .calender {
+    height: 50px;
     flex: 1;
 }
 
@@ -142,7 +143,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: rgba(3, 3, 241, 0.335);
+    background-color: rgba(77, 77, 97, 0.178);
 }
 
 .pager-flex > p {
@@ -151,7 +152,7 @@ header {
 
 .pager-flex > ul {
     flex: 1;
-    background-color: rgba(3, 3, 241, 0.246);
+    background-color: rgba(140, 140, 155, 0.246);
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -188,6 +189,7 @@ header {
 }
 
 .card-container {
+    width: 80vw;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -195,7 +197,7 @@ header {
 }
 
 .card {
-    flex: 1 1;
+    flex: 1 1 400px;
     margin: 10px;
     display: flex;
     justify-content: space-between;
@@ -205,13 +207,10 @@ header {
 .card-middle-up {
     background-color: white;
     flex: 1 1 300px;
-    box-shadow: 10px 10px rgba(128, 128, 128, 0.589);
 }
 
 .card-middle-down {
-    box-shadow: -10px -10px rgba(0, 195, 255, 0.849);
     background-color: white;
-    margin-top: 3%;
     flex: 1 1 300px;
 }
 
@@ -223,4 +222,19 @@ header {
 .card-middle-down > h2{
     padding-left: 5%;
     text-decoration: underline;
+}
+
+.st {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    color: #999999;
+    margin: 0 auto;
+    height: 10vh;
+}
+
+footer > img {
+    padding: 5px;
+    margin: auto;
+    height: 10px;
 }

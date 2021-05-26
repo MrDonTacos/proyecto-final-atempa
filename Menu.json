@@ -15,10 +15,6 @@
         {
             "nombre": "Calendario",
             "id": "calender"
-        },
-        {
-            "nombre": "Contacto",
-            "id": "contact"
         }
     ]
 }
