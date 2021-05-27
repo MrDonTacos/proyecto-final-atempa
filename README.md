@@ -23,7 +23,7 @@ el html de los demas documentos con la manipulación del DOM a través de Javasc
 Cuenta con dos funcionamientos, el primero es generar de forma dinámica el navbar a través de Menu.json, la segunda responsabilidad
 de este documento es el generar los eventos para inyectar código html dentro de otras páginas al <section> principal
   
-## Funcioanimiento de styles.css
+## Funcionamiento de styles.css
   
 Funciona en este caso como hoja de estilos general para todas las ventanas, esto debido a que la estructura de las demás páginas es inyectada
 sobre el documento principal
